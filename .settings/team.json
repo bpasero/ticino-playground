@@ -1,0 +1,7 @@
+{
+	"type": "team",
+	"test": {
+		"testPage": "/tests.htm",
+		"enabled": true
+	}
+}
