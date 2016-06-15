@@ -13,7 +13,7 @@ module Mankala {
 			this.seedStoredCount = 0;
 			this.capturedCount = 0;
 			this.spaceCaptured = NoSpace;
-		}
+		}sddsd
 
         clear() {
             this.turnContinues = false;
