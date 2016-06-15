@@ -1,3 +1,5 @@
+// test
+
 module Mankala {
 	
 	export class Rectangle {
