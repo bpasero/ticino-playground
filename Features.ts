@@ -2,18 +2,18 @@
 
 module Mankala {
     export class Features {
-		
+
 		turnContinues:boolean;
 		seedStoredCount:number;
 		capturedCount:number;
-		spaceCaptured:numbesdsdr;
-		
+		spaceCaptured:number;
+
 		constructor() {
 			this.turnContinues = false;
 			this.seedStoredCount = 0;
 			this.capturedCount = 0;
 			this.spaceCaptured = NoSpace;
-		}sddsd
+		}
 
         clear() {
             this.turnContinues = false;
@@ -29,7 +29,8 @@ module Mankala {
             }
             stringBuilder += (' stores '+ this.seedStoredCount);
             if (this.capturedCount>0) {
-                stringBuilder += (' captures ' + this.capturedCount + ' from space ' + this.spaceCaptured);
+                stringBuilder += (' captures ' + this.capturedC
+                ount + ' from space ' + this.spaceCaptured);
             }
             return stringBuilder;
         }
