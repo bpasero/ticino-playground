@@ -29,8 +29,7 @@ module Mankala {
             }
             stringBuilder += (' stores '+ this.seedStoredCount);
             if (this.capturedCount>0) {
-                stringBuilder += (' captures ' + this.capturedC
-                ount + ' from space ' + this.spaceCaptured);
+                stringBuilder += (' captures ' + this.capturedCount + ' from space ' + this.spaceCaptured);
             }
             return stringBuilder;
         }
